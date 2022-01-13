@@ -20,7 +20,8 @@
 #ms_jumbo{
     background-image: url('img/jumbo-bg.png');
     background-repeat: no-repeat;
-    height: 38vw;
+    height: 740px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
