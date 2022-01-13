@@ -10,5 +10,17 @@
 }
 
 .ms_sony-logo{
-    width: 60px;
+    width: 80px;
+}
+
+.ms_text-black{
+    color: black !important;
+}
+
+#ms_jumbo{
+    background-image: url('img/jumbo-bg.png');
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100%;
+    background-size: contain;
 }
