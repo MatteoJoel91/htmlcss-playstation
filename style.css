@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+.ms_height-fix{
+    height: 126px;
+    width: 100%;
+}
 .ms_height-50px{
     height: 50px;
 }
@@ -30,4 +33,18 @@
 }
 .ms_border_giochi{
     border-radius: 30px;
+}
+
+#ms_bg-secondo{
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    height: 740px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.ms_bg-grigio{
+    background-color: #1f1f1f;
+    min-height: 200px;
 }
