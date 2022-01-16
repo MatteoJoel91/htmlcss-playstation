@@ -28,6 +28,23 @@
     background-size: cover;
     background-position: center;
 }
+.ms_img-returnal-banner{
+    width: 270px;
+}
+.ms_text-1{
+    font-size: 50px;
+}
+.ms_2{
+    font-size: 25px;
+}
+.ms_button-red{
+    background-color: #cd3d0f;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 12px;
+}
 .ms_text_blu-celeste{
     color: #0977d0;
 }
@@ -56,3 +73,31 @@
 #ms_bg-terzo{
     background-color: #bebcbb;
 }
+.ms_img-psplus-1{
+    width: 50%;
+}
+.ms_img-psplus-2{
+    width: 90%;
+    
+}
+.ms_button-grey{
+    background-color: #d9dadc;
+    border-radius: 30px;
+    color: blue;
+    border: none;
+    padding: 10px 12px;
+}
+.ms_justify-content{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
