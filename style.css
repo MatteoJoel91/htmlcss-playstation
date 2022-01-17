@@ -19,6 +19,19 @@
 .ms_text-black{
     color: black !important;
 }
+.ms_freccia-drop-nav{
+    width: 12px;
+}
+.ms_freccia-blu-drop-nav{
+    width: 12px;
+    display: none;
+}
+header li:hover .ms_freccia-blu-drop-nav{
+    display: inline-block;
+}
+header li:hover .ms_freccia-drop-nav{
+    display: none;
+}
 
 .ms_pallino-blu{
     color: #2b70d1;
@@ -98,10 +111,6 @@
     border: none;
     padding: 10px 12px;
 }
-
-
-
-
 
 
 .nav-link:hover {
