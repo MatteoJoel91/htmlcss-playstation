@@ -26,12 +26,7 @@
     width: 12px;
     display: none;
 }
-header li:hover .ms_freccia-blu-drop-nav{
-    display: inline-block;
-}
-header li:hover .ms_freccia-drop-nav{
-    display: none;
-}
+
 
 .ms_pallino-blu{
     color: #2b70d1;
@@ -50,10 +45,12 @@ header li:hover .ms_freccia-drop-nav{
     width: 270px;
 }
 .ms_text-1{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bolder;
 }
-.ms_2{
-    font-size: 25px;
+.ms_text-2{
+    font-size: 18px;
+    font-weight: bolder;
 }
 .ms_button-red{
     background-color: #cd3d0f;
@@ -68,6 +65,14 @@ header li:hover .ms_freccia-drop-nav{
 }
 .ms_border_giochi{
     border-radius: 15px;
+}
+.ms_bordo-blu-giochi{
+    border: solid 2px rgba(47,140,215,1);
+    cursor: pointer;
+    transition: top ease 0.5s;
+}
+.ms_hover-giochi{
+    border: solid 2px rgba(47,140,215,0);
 }
 
 .ms_opacity{
@@ -113,7 +118,7 @@ header li:hover .ms_freccia-drop-nav{
 }
 
 #ms_bg-quinto{
-    background-color: #2b70d1;
+    background-color: #00439c;
 }
 footer ul li a{
     color: white;
@@ -134,8 +139,51 @@ li{
 .ms_logo-sie-footer{
     width: 50%;
 }
+
+
+/* REGOLE DI HOVER */
 .nav-link:hover {
     color: #2b70d1 !important;
+}
+
+header li:hover .ms_freccia-blu-drop-nav{
+    display: inline-block;
+}
+
+header li:hover .ms_freccia-drop-nav{
+    display: none;
+}
+
+.ms_hover-giochi:hover{
+    border: solid 2px rgba(47,140,215,1);
+    cursor: pointer;
+    transition: top ease 0.5s;
+}
+
+
+
+
+/* REGOLE ANIMAZIONI */
+.ms_img-animation:hover .ms_animation{
+    position: relative;
+    animation-name: gotop;
+    animation-duration: 2s;
+}
+
+@keyframes gotop {
+    0%   {
+        left:0px;
+        bottom:0px;
+    }
+    
+    50%  {
+        box-shadow: 5px 10px 8px 10px gray;
+        
+        left:0px; bottom:60px;
+    }
+    
+    100% { 
+        left:0px;
+        bottom:0px;
+    }
   }
-
-
