@@ -1,13 +1,22 @@
-/* REGOLE GENERALI */
+/* REGOLE GENERALI & ms(mio stile) */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+.ms_cursor{
+    cursor: pointer;
+}
+
+
+
+/* Sezione Header */
 .ms_height-fix{
     height: 126px;
     width: 100%;
 }
+
 .ms_height-50px{
     height: 50px;
 }
@@ -16,23 +25,24 @@
     width: 80px;
 }
 
-.ms_text-black{
-    color: black !important;
-}
 .ms_freccia-drop-nav{
     width: 12px;
 }
+
 .ms_freccia-blu-drop-nav{
     width: 12px;
     display: none;
 }
-
 
 .ms_pallino-blu{
     color: #2b70d1;
     font-size: 6px;
     vertical-align: middle;
 }
+
+
+
+/* Sezione Main */
 #ms_jumbo{
     background-image: url('img/jumbo-bg.png');
     background-repeat: no-repeat;
@@ -41,43 +51,63 @@
     background-size: cover;
     background-position: center;
 }
+
 .ms_img-returnal-banner{
     width: 270px;
 }
+
 .ms_text-1{
     font-size: 40px;
     font-weight: bolder;
 }
+
 .ms_text-2{
     font-size: 18px;
     font-weight: bolder;
 }
+
 .ms_button-red{
-    background-color: #cd3d0f;
+    background-color: rgb(205, 61, 15);
     border-radius: 30px;
     color: white;
     font-size: 20px;
     border: none;
-    padding: 10px 12px;
+    padding: 10px 15px 15px 15px;
 }
+
 .ms_text_blu-celeste{
     color: #0977d0;
 }
+
 .ms_border_giochi{
     border-radius: 15px;
+    cursor: pointer;
 }
+
 .ms_bordo-blu-giochi{
     border: solid 2px rgba(47,140,215,1);
     cursor: pointer;
     transition: top ease 0.5s;
 }
+
 .ms_hover-giochi{
     border: solid 2px rgba(47,140,215,0);
+}
+
+.ms_border-bottom-blue{
+    border-bottom: solid 2px rgba(47,140,215,1);
+    cursor: pointer;
+}
+
+.ms_border-bottom-blue-2{
+    border-bottom: solid 2px rgba(47,140,215,0);
+    cursor: pointer;
 }
 
 .ms_opacity{
     opacity: 0.5;
 }
+
 #ms_bg-secondo{
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
     background-repeat: no-repeat;
@@ -95,6 +125,7 @@
 #ms_bg-terzo{
     background-color: #bebcbb;
 }
+
 .ms_img-psplus-1{
     width: 50%;
 }
@@ -110,6 +141,7 @@
 #ms_bg-quarto{
     background-color: #161c3b;
 }
+
 .ms_button-white{
     background-color: white;
     border-radius: 30px;
@@ -117,32 +149,46 @@
     padding: 10px 12px;
 }
 
+
+
+/* Sezione Footer */
 #ms_bg-quinto{
     background-color: #00439c;
 }
+
 footer ul li a{
     color: white;
     text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
+
 li{
     padding: 4px 0px;
 }
+
 .ms_globe-svg{
     width: 20px;
 }
+
 .ms_logo-ps-footer{
     width: 20%;
 }
+
 .ms_logo-sie-footer{
     width: 50%;
 }
 
 
+
 /* REGOLE DI HOVER */
-.nav-link:hover {
+a:hover{
+    color: white;
+}
+
+.nav-link:hover{
     color: #2b70d1 !important;
 }
 
@@ -154,12 +200,37 @@ header li:hover .ms_freccia-drop-nav{
     display: none;
 }
 
+.ms_button-red:hover{
+    background-color:#da704e ;
+}
+
 .ms_hover-giochi:hover{
     border: solid 2px rgba(47,140,215,1);
     cursor: pointer;
     transition: top ease 0.5s;
 }
 
+.ms_border-bottom-blue-2:hover .ms_opacity{
+    opacity: 1;
+}
+
+.ms_border-bottom-blue-2:hover{
+    border-bottom: solid 2px rgba(47,140,215,1);
+}
+
+.ms_button-grey:hover{
+    background-color: #e2be4b;
+    color: white;
+}
+
+.ms_button-white:hover{
+    background-color: #4c87c9;
+    color: white;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
 
 
 

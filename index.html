@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
-<body>
+  <body>
     <!-- Inizio Header -->
     <header class="fixed-top">
         <div class="container-fluid bg-black d-flex flex-row-reverse ms_height-50px">
@@ -19,26 +19,296 @@
         <!-- Inizio del Nav -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <!-- Inizio menú sinistra -->
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="img/play_logo.svg" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                
+          <!-- Inizio menú sinistra -->
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/play_logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0">
+
+                <!-- Dropdown Giochi -->
+                <li class="nav-item dropdown position-static ">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Giochi
+                    <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                  
+                </li>
+
+
+                <!-- Dropdown Hardware -->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hardware
+                    <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                </li>
+
+
+                <!-- Dropdown Servizi -->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servizi
+                    <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                </li>
+
+
+                <!-- Dropdown Novitá -->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Novitá
+                    <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                </li>
+
+
+                <!-- Dropdown Fai acquisti -->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Fai acquisti
+                    <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                </li>
+
+
+                <!-- Dropdown Supporto -->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Supporto
+                      <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
+                    <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
+                  </a>
+                  <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
+
+                    <!-- Items nel drop -->
+                    <li class="nav-item dropdown">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 5 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 4 </a>
+                        </div>
+                        <div class="col-4 col-md-2">
+                          <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                          <a class="dropdown-item" href="#">Playstation 3 </a>
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider"></li>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
+                        </div>
+
+                        <div class="col-4 col-md-2">
+                          <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
+                        </div>
+                      </div>
+                      
+                  </ul>
+                </li>
+              </ul>
+              <!-- Fine menú sinistra -->
+
+
+              <!-- Inizio menú destra -->
                 <ul class="navbar-nav  mb-2 mb-lg-0">
-                  <!-- Dropdown Giochi -->
-                  <li class="nav-item dropdown position-static ">
+                  <!-- Dropdow My Playstation -->
+                  <li class="nav-item dropdown position-static">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Giochi
+                      My Playstation
                       <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
                       <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
                     </a>
                     <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
 
+                      <!-- Items nel drop -->
                       <li class="nav-item dropdown">
                         <div class="row justify-content-center align-items-center">
                           <div class="col-4 col-md-2">
@@ -54,286 +324,22 @@
                             <a class="dropdown-item" href="#">Playstation 3 </a>
                           </div>
                         </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Giochi</a></li>
-                          </div>
-                        </div>
-                        
-                    </ul>
-                    
-                  </li>
-
-
-                  <!-- Dropdown Hardware -->
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hardware
-                      <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                      <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                    </a>
-                    <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                      <li class="nav-item dropdown">
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 5 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 4 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 3 </a>
-                          </div>
-                        </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Hardware</a></li>
-                          </div>
-                        </div>
                         
                     </ul>
                   </li>
 
+                    <!-- Bottone Accedi -->
+                    <div class="d-flex align-items-center">
+                      <button type="button" class="btn btn-secondary rounded-pill mx-4">Accedi</button>
+                    </div>
 
-                  <!-- Dropdown Servizi -->
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Servizi
-                      <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                      <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                    </a>
-                    <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                      <li class="nav-item dropdown">
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 5 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 4 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 3 </a>
-                          </div>
-                        </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Servizi</a></li>
-                          </div>
-                        </div>
-                        
-                    </ul>
-                  </li>
-
-
-                  <!-- Dropdown Novitá -->
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Novitá
-                      <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                      <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                    </a>
-                    <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                      <li class="nav-item dropdown">
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 5 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 4 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 3 </a>
-                          </div>
-                        </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Novitá</a></li>
-                          </div>
-                        </div>
-                        
-                    </ul>
-                  </li>
-
-
-                  <!-- Dropdown Fai acquisti -->
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Fai acquisti
-                      <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                      <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                    </a>
-                    <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                      <li class="nav-item dropdown">
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 5 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 4 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 3 </a>
-                          </div>
-                        </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Fai acquisti</a></li>
-                          </div>
-                        </div>
-                        
-                    </ul>
-                  </li>
-
-
-                  <!-- Dropdown Supporto -->
-                  <li class="nav-item dropdown position-static">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Supporto
-                        <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                      <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                    </a>
-                    <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                      <li class="nav-item dropdown">
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 5 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 4 </a>
-                          </div>
-                          <div class="col-4 col-md-2">
-                            <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                            <a class="dropdown-item" href="#">Playstation 3 </a>
-                          </div>
-                        </div>
-                        <li><hr class="dropdown-divider"></li>
-                        <div class="row justify-content-center align-items-center">
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
-                          </div>
-
-                          <div class="col-4 col-md-2">
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-circle-fill ms_pallino-blu me-2"></i>Supporto</a></li>
-                          </div>
-                        </div>
-                        
-                    </ul>
-                  </li>
+                    <!-- Immagine Lente -->
+                    <img style="width: 35px" src="img/lens.svg" alt="img-lente">
                 </ul>
-                <!-- Fine menú sinistra -->
-
-
-                <!-- Inizio menú destra -->
-                  <ul class="navbar-nav  mb-2 mb-lg-0">
-                      <!-- Dropdow My Playstation -->
-                      <li class="nav-item dropdown position-static">
-                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          My Playstation
-                          <img class="ms_freccia-drop-nav" src="img/chevron-down-solid.svg" alt="">
-                          <img class="ms_freccia-blu-drop-nav" src="img/chevron-down-solid-hover.svg" alt="">
-                        </a>
-                        <ul class="dropdown-menu w-100 text-center border-0 rounded-0 my-0" aria-labelledby="navbarDropdown">
-
-                          <li class="nav-item dropdown">
-                            <div class="row justify-content-center align-items-center">
-                              <div class="col-4 col-md-2">
-                                <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                                <a class="dropdown-item" href="#">Playstation 5 </a>
-                              </div>
-                              <div class="col-4 col-md-2">
-                                <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                                <a class="dropdown-item" href="#">Playstation 4 </a>
-                              </div>
-                              <div class="col-4 col-md-2">
-                                <img class="img-fluid" src="img/play-menu-ico.png" alt="">
-                                <a class="dropdown-item" href="#">Playstation 3 </a>
-                              </div>
-                            </div>
-                            
-                        </ul>
-                      </li>
-
-                        <!-- Bottone Accedi -->
-                        <div class="d-flex align-items-center">
-                          <button type="button" class="btn btn-secondary rounded-pill mx-4">Accedi</button>
-                        </div>
-
-                        <!-- Immagine Lente -->
-                        <img style="width: 35px" src="img/lens.svg" alt="img-lente">
-                    </ul>
-                </div>
-                <!-- Fine menú destra -->
-              </div>
             </div>
-          </nav>
+            <!-- Fine menú destra -->
+          </div>
+        </nav>
           <!-- Fine del Nav -->
     </header>
     <!-- Fine Header -->
@@ -341,7 +347,7 @@
     <!-- Inizio Jumbotrone -->
     <div class="ms_height-fix"></div>
     
-    <section id="ms_jumbo" >
+    <section id="ms_jumbo">
       <div class="container-fluid d-flex h-100 align-items-end text-white">
         <div class="row ms-5">
           <div class="col-8 mb-5">
@@ -354,7 +360,7 @@
             </span>
           </div>
       
-          <div class="col-12 mb-5">
+          <div class="col-12">
             <div class="row">
               <div class="col-12 col-md-5">
                 <span class="ms_text-2">
@@ -365,8 +371,11 @@
             </div>
           </div>
       
-          <div class="col-12 mb-5">
-            <button type="button" class="ms_button-red">Acquista ora </button>
+          <div class="col-12 mb-5 py-5">
+            
+              <!-- Bottone Acquista -->
+              <button type="button" class="ms_button-red">Acquista ora </button>
+            
           </div>
         </div>
       </div>
@@ -376,9 +385,9 @@
     <!-- Fine Jumbotrone -->
 
     <!-- Inizio del main -->
-    <div>
+    <main>
       <!-- Inizio sezione lista giochi (6 giochi)-->
-        <div class="container-fluid my-5">
+        <div class="container-fluid my-5 px-5">
           <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 mr-5">
 
             <!-- Box primo gioco -->
@@ -421,8 +430,8 @@
 
 
         <!-- Inizio sezione "Ecco la PlayStation 5" -->
-        <div class="container mb-5">
-          <div class="row justify-content-center align-items-center">
+      <div class="container-fluid mb-5 px-5">
+        <div class="row justify-content-center align-items-center">
           <div class="col-8 text-center">
             <span class="h6 ms_text_blu-celeste">
               PLAY HAS NO LIMITS
@@ -460,45 +469,43 @@
             <img class="img-fluid" src="img/playstation-5-thumb.png" alt="">
           </div>
         </div>
-        <!-- Fine sezione "Console PlayStation 5" ed accessori -->
-        </div>
+      </div>
         
         <!-- Inizio riga accessori PS5 -->
-        <div class="container ">
+        <div class="container-fluid px-5">
           <div class="row row-cols-3 row-cols-md-6 my-5 mx-1 text-center fw-bolder ">
-          <div class="g-col-3 p-lg-4 ms_border-bottom-blue">
-            <img class="img-fluid" src="img/playstation-5-thumb.png" alt="">
-            <span>
-              Console PS5
-            </span>
-          </div>
-          <div class="p-lg-4 ms-auto">
-            <img class="img-fluid ms_opacity" src="img/joypad-thumb.png" alt="">
-            <span>
-              Controller wireless DualSense
-            </span>
-          </div>
-          <div class="p-lg-4 ms-auto">
-            <img class="img-fluid ms_opacity" src="img/headset-thumb.png" alt="">
-            <span>
-              Cuffie wireless con microfono PULSE 3
-            </span>
-          </div>
-          <div class="p-lg-4 ms-auto">
-            <img class="img-fluid ms_opacity" src="img/remote-thumb.png" alt="">
-            <span>
-              Telecomando Media
-            </span>
-          </div>
-          <div class="p-lg-4 ms-auto">
-            <img class="img-fluid ms_opacity" src="img/camera-thumb.jpg" alt="">
-            <span>
-              Telecamera HD
-            </span>
+            <div class="g-col-3 p-lg-4  ms_border-bottom-blue">
+              <img class="img-fluid" src="img/playstation-5-thumb.png" alt="">
+              <span>
+                Console PS5
+              </span>
+            </div>
+            <div class="p-lg-4 ms-md-auto ms_border-bottom-blue-2">
+              <img class="img-fluid ms_opacity" src="img/joypad-thumb.png" alt="">
+              <span>
+                Controller wireless DualSense
+              </span>
+            </div>
+            <div class="p-lg-4 ms-md-auto ms_border-bottom-blue-2">
+              <img class="img-fluid ms_opacity" src="img/headset-thumb.png" alt="">
+              <span>
+                Cuffie wireless con microfono PULSE 3
+              </span>
+            </div>
+            <div class="p-lg-4 ms-md-auto ms_border-bottom-blue-2">
+              <img class="img-fluid ms_opacity" src="img/remote-thumb.png" alt="">
+              <span>
+                Telecomando Media
+              </span>
+            </div>
+            <div class="p-lg-4 ms-md-auto ms_border-bottom-blue-2">
+              <img class="img-fluid ms_opacity" src="img/camera-thumb.jpg" alt="">
+              <span>
+                Telecamera HD
+              </span>
+            </div>
           </div>
         </div>
-        </div>
-        
         <!-- Fine riga accessori PS5 -->
 
 
@@ -534,7 +541,8 @@
               </div>
               
             </div>
-          
+            
+            <!-- Bottone Acquista -->
             <div class="col-12 mb-5">
               <button type="button" class="ms_button-red">Acquista ora </button>
             </div>
@@ -544,7 +552,7 @@
 
 
         <!-- Inizio sezione "Nuove uscite" -->
-        <div class="container-fluid ms_bg-grigio pb-5">
+        <div class="container-fluid ms_bg-grigio pb-5 px-5">
           
             <div class="pt-5 mb-4">
               <span class="text-white h2">
@@ -705,8 +713,8 @@
           </div>
 
           <!-- Oggetto 1 -->
-          <div class="row justify-content-center align-items-start ms-auto">
-            <div class="col-12 col-md-3 mx-3 my-5">
+          <div class="row justify-content-center align-items-start mx-5">
+            <div class="col-12 col-md-4 my-5">
               <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg" alt="">
               <h3 class="mb-3">
                 PlayStation 4
@@ -718,7 +726,7 @@
             </div>
 
             <!-- Oggetto 2 -->
-            <div class="col-12 col-md-3 mx-3 my-5">
+            <div class="col-12 col-md-4 my-5">
               <img class="img-fluid" src="img/double11-202010-tw-psvr.jpg" alt="">
               <h3 class="mb-3">
                 PlayStation VR
@@ -731,7 +739,7 @@
             </div>
 
             <!-- Oggetto 3 -->
-            <div class="col-12 col-md-3 mx-3 my-5">
+            <div class="col-12 col-md-4 my-5">
               <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg" alt="">
               <h3 class="mb-3">
                 Accessori
@@ -777,7 +785,7 @@
         
 
         <!-- Inizio sezione "Sconti PlayStation Store" -->
-        <div class="container-fluid mb-5">
+        <div class="container mb-5">
 
           <div class="row justify-content-center align-items-center text-center">
             <div class="col-12">
@@ -793,13 +801,13 @@
 
           <div class="row row-cols-1 row-cols-md-4 justify-content-center">
             <div class="mb-5">
-              <img class="img-fluid" src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
+              <img class="img-fluid ms_cursor" src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
             </div>
             <div class="mb-5">
-              <img class="img-fluid" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+              <img class="img-fluid ms_cursor" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
             </div>
             <div class="mb-5">
-              <img class="img-fluid" src="img/playstation-store-free-to-play-spotlight.png" alt="">
+              <img class="img-fluid ms_cursor" src="img/playstation-store-free-to-play-spotlight.png" alt="">
             </div>
           </div>
         </div>
@@ -848,16 +856,16 @@
         
         <div class="row row-cols-2 row-cols-sm-6 justify-content-center">
           <div class="mb-5">
-            <img class="img-fluid" src="img/twitter.jpg" alt="">
+            <img class="img-fluid ms_cursor" src="img/twitter.jpg" alt="">
           </div>
           <div class="mb-5">
-            <img class="img-fluid" src="img/facebook.jpg" alt="">
+            <img class="img-fluid ms_cursor" src="img/facebook.jpg" alt="">
           </div>
           <div class="mb-5">
-            <img class="img-fluid" src="img/instagram.jpg" alt="">
+            <img class="img-fluid ms_cursor" src="img/instagram.jpg" alt="">
           </div>
           <div class="mb-5">
-            <img class="img-fluid" src="img/youtube.png" alt="">
+            <img class="img-fluid ms_cursor" src="img/youtube.png" alt="">
           </div>
         </div>
       </div>
@@ -869,7 +877,9 @@
     <!-- Inizio del footer -->
     <footer>
       <section id="ms_bg-quinto">
-        <div class="container pt-5">
+
+        <!-- Logo PS -->
+        <div class="container-fluid pt-5 px-5">
           <div class="row">
             <div class="col-12 col-lg-5">
               <img class="ms_logo-ps-footer" src="img/ps-footer.svg" alt="">
@@ -881,6 +891,7 @@
               </div>
             </div>
 
+            <!-- Selezioni a destra -->
             <div class="col-12 col-md-4 col-lg-3">
                 <ul>
                     <li>
@@ -951,6 +962,7 @@
             </div>
           </div>
 
+          <!-- Logo Sony Interactive + Info diritti -->
           <div class="row">
               <div class="col-12 col-lg-5">
                 <img class="ms_logo-sie-footer mb-2 py-3" src="img/sie-logo.svg" alt="">
@@ -969,14 +981,7 @@
     </footer>
     <!-- Fine del footer -->
 
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</body>
+
+  </body>
 </html>
