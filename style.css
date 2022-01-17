@@ -20,6 +20,11 @@
     color: black !important;
 }
 
+.ms_pallino-blu{
+    color: #2b70d1;
+    font-size: 6px;
+    vertical-align: middle;
+}
 #ms_jumbo{
     background-image: url('img/jumbo-bg.png');
     background-repeat: no-repeat;
