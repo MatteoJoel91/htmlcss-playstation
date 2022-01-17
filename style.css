@@ -112,7 +112,28 @@ header li:hover .ms_freccia-drop-nav{
     padding: 10px 12px;
 }
 
-
+#ms_bg-quinto{
+    background-color: #2b70d1;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li{
+    padding: 4px 0px;
+}
+.ms_globe-svg{
+    width: 20px;
+}
+.ms_logo-ps-footer{
+    width: 20%;
+}
+.ms_logo-sie-footer{
+    width: 50%;
+}
 .nav-link:hover {
     color: #2b70d1 !important;
   }
